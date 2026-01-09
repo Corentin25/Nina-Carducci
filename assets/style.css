@@ -1,10 +1,8 @@
 body {
-	max-width: 1920px;
-	margin: auto;
-}
-* {
 	font-family: 'Inter';
 	font-style: normal;
+	max-width: 1920px;
+	margin: auto;
 }
 
 img {
@@ -96,9 +94,6 @@ img {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -135,7 +130,7 @@ img {
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
-	border-radius: 00%;
+	border-radius: 10%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
