@@ -87,11 +87,12 @@ img {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
+	font-size: 17px;
 	width: 60%;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .title{
@@ -102,12 +103,14 @@ img {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
+	color: #000;
+	background-color: #F6D2B8;
+	cursor: pointer;
+
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
